@@ -19,16 +19,24 @@
         var app = Elm.Main.init({
             node: document.getElementById("root")
         });
-        // Help the user out and warn them before they lose work!
-        // window.onbeforeunload = function (e) {
-        //     var e = e || window.event;
-        //     // For IE and Firefox
-        //     if (e) {
-        //         e.returnValue = 'Leaving';
-        //     }
-        //     // For Safari
-        //     return 'Leaving';
-        // };
+        Help the user out and warn them before they lose work!
+        window.onbeforeunload = function (e) {
+            var e = e || window.event;
+            // For IE and Firefox
+            if (e) {
+                e.returnValue = 'Leaving';
+            }
+            // For Safari
+            return 'Leaving';
+        };
     </script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.6.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
 </body>
 </html>
