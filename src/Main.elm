@@ -348,7 +348,7 @@ decodeAllData =
 getAllData : (Result Http.Error GameData -> Msg) -> Cmd Msg
 getAllData cmd =
     Http.get
-        { url = "../data/data.json"
+        { url = "data.json"
         , expect = Http.expectJson cmd decodeAllData
         }
 
