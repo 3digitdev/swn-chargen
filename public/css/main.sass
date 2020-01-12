@@ -1,0 +1,408 @@
+$fancy-font: 'Poiret One', cursive
+$sans-font: 'Dosis', sans-serif
+$black: #555
+$white: #fff
+$red: #D64337
+$gray: #C4C4C4
+$yellow-glow: #FFEE51
+$content-width: 60%
+
+$curve: 10px
+
+body
+    font-family: $sans-font
+    font-weight: '400'
+    color: $black
+
+@mixin invert()
+    color: $white
+    background-color: $black
+
+@mixin half-center()
+    margin: auto
+    width: $content-width
+
+li
+    h3,h4
+        margin: 0
+
+//--- High-level ---\\
+.center-text
+    text-align: center
+
+.title-text
+    font-size: 3rem
+
+.red-text
+    color: $red
+
+.inline
+    display: inline
+
+.half
+    width: 50%
+    margin: auto
+
+.hide
+    display: none
+
+.footer
+    position: fixed
+    bottom: 0
+    display: flex
+    justify-content: space-around
+    max-height: 10%
+    @include half-center()
+
+.back
+    position: fixed
+    bottom: 50%
+    left: 0
+    height: 6rem
+
+.next
+    position: fixed
+    bottom: 50%
+    right: 0
+    height: 6rem
+
+.invert
+    @include invert()
+
+//--- Button Stuff ---\\
+button
+    border: 2px solid $black
+    border-radius: $curve
+    background-color: $white
+    font-family: $sans-font
+    font-size: 1.25rem
+    margin: 5px
+    padding: 0.5rem
+    min-width: 10rem
+
+button.stretch
+    width: 100%
+    font-size: 2rem
+
+button:hover
+    @include invert()
+
+button:disabled,
+button[disabled],
+button:disabled:hover
+    color: $gray
+    border: 2px solid $gray
+    background-color: $white
+    cursor: not-allowed
+
+input.name-input
+    -webkit-appearance: none
+    border: 2px solid $black
+    font-size: 1.25rem
+    font-family: $sans-font
+    color: $black
+    padding: 0.5rem
+    min-width: 60%
+
+//--- Containers ---\\
+.container
+    margin-bottom: 10%
+    @include half-center()
+
+.card-list
+    display: flex
+    flex-flow: row wrap
+    justify-content: center
+
+.single-col
+    width: 33%
+    margin: auto
+
+.nav
+    display: flex
+    flex-flow: row nowrap
+    justify-content: space-around
+
+.flex
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-around
+    align-items: baseline
+
+    table
+        flex-basis: 45%
+
+//--- Cards ---\\
+.card
+    border: 2px solid $black
+    box-shadow: 5px 5px
+    background-color: $white
+    margin: 1%
+    flex-basis: 28%
+    justify-content: center
+    cursor: pointer
+    .card-info
+        position: static
+        float: right
+        margin: 0
+        padding: 0
+    .card-header
+        margin: 0
+        padding: 5px 10px
+        text-align: center
+        @include invert()
+    .card-content
+        padding: 10px
+
+.card-selected
+    border: 2px solid $black
+    box-shadow: 5px 5px
+    background-color: $black
+    color: $white
+    margin: 1%
+    flex-basis: 28%
+    justify-content: center
+    cursor: pointer
+    .card-info
+        position: static
+        float: right
+        margin: 0
+        padding: 0
+    .card-header
+        margin: 0
+        padding: 5px 10px
+        @include invert()
+    .card-content
+        padding: 10px
+
+.row-of-2
+    flex-basis: 45%
+
+.skill-card
+    flex-basis: 100%
+    text-align: center
+    box-shadow: 0px 0px
+    margin: 5px
+    padding: 5px 10px
+    @include invert()
+
+.card:hover
+    box-shadow: 0px 0px
+
+h3.card-title
+    font-size: 1.5rem
+    margin: 0
+
+//--- Nav Bar ---\\
+.nav-item
+    border: 2px solid $black
+    font-size: 2.5rem
+    flex-basis: 33.33%
+    margin: 0
+    text-align: center
+    cursor: pointer
+
+    &:first-child
+        border-right: 0px
+
+    &:nth-child(3)
+        border-left: 0px
+
+.nav-item-full
+    border: 2px solid $black
+    font-size: 2.5rem
+    flex-basis: 33.33%
+    margin: 0
+    text-align: center
+    cursor: pointer
+
+.nav-active
+    @include invert()
+
+//--- Tables ---\\
+table
+    display: table
+    width: 100%
+    border-collapse: separate
+    border-spacing: 0
+    border-color: grey
+
+thead
+    vertical-align: center
+
+tbody
+    display: table-row-group
+    vertical-align: middle
+    border-color: inherit
+
+tr
+    display: table-row
+    vertical-align: inherit
+    border-color: inherit
+
+th,td
+    border-bottom: 0.1rem solid grey
+    padding: 1.2rem 1.5rem
+    text-align: left
+
+//--- Attribute Roll List ---\\
+.attr-rolls
+    width: $content-width
+    margin: auto
+    display: flex
+    justify-content: space-between
+
+    button
+        flex-basis: 60%
+
+.attr-roll
+    display: inline
+    flex-basis: 15%
+    text-align: center
+    border: 1px solid $black
+    cursor: pointer
+
+
+//--- Attribute Assignment ---\\
+.attr-wrap
+    display: flex
+    justify-content: center
+    margin: 5px 0px 5px 0px
+
+.attr-target
+    min-width: 5rem
+    min-height: 100%
+    border: 1px solid $black
+    float: right
+    margin: 0
+    text-align: center
+    cursor: pointer
+
+    h1
+        margin: 0
+
+h1.attr-name
+    margin: 0
+    min-width: 12rem
+
+// Highlighting
+.highlighted
+    -webkit-box-shadow: 0px 0px 25px 2px $yellow-glow
+    box-shadow: 0px 0px 25px 2px $yellow-glow
+
+//--- Name ---\\
+.name-wrap
+    display: flex
+    justify-content: center
+
+//--- FINAL SUMMARY ---\\
+.summary-grid
+    display: grid
+    grid-template-columns: [c1s] 3fr [c1e c2s] 3fr [c2e c3s] 2fr [c3e]
+    grid-template-rows: [r1s] 1fr [r1e r2s] 1fr [r2e r3s] 1fr [r3e r4s] 1fr [r4e r5s] 3fr [r5e r6s] 3fr [r6e]
+
+.attr-cell
+    grid-area: r1s / c1s / r4e / c1e
+    border: 1px solid $black
+    text-align: center
+    display: grid
+    grid-template-columns: [ns] 3fr [ne ss] 1fr [se ms] 1fr [me]
+    grid-template-rows: [strs] 1fr [stre dexs] 1fr [dexe cons] 1fr [cone ints] 1fr [inte wiss] 1fr [wise chas] 1fr [chae]
+
+.str-name
+    grid-area: strs / ns / stre / ne
+    margin-left: 1rem
+.str-score
+    grid-area: strs / ss / stre / se
+.str-mod
+    grid-area: strs / ms / stre / me
+
+.dex-name
+    grid-area: dexs / ns / dexe / ne
+    margin-left: 1rem
+.dex-score
+    grid-area: dexs / ss / dexe / se
+.dex-mod
+    grid-area: dexs / ms / dexe / me
+
+.con-name
+    grid-area: cons / ns / cone / ne
+    margin-left: 1rem
+.con-score
+    grid-area: cons / ss / cone / se
+.con-mod
+    grid-area: cons / ms / cone / me
+
+.int-name
+    grid-area: ints / ns / inte / ne
+    margin-left: 1rem
+.int-score
+    grid-area: ints / ss / inte / se
+.int-mod
+    grid-area: ints / ms / inte / me
+
+.wis-name
+    grid-area: wiss / ns / wise / ne
+    margin-left: 1rem
+.wis-score
+    grid-area: wiss / ss / wise / se
+.wis-mod
+    grid-area: wiss / ms / wise / me
+
+.cha-name
+    grid-area: chas / ns / chae / ne
+    margin-left: 1rem
+.cha-score
+    grid-area: chas / ss / chae / se
+.cha-mod
+    grid-area: chas / ms / chae / me
+
+.name-cell
+    grid-area: r1s / c3s / r1e / c3e
+    border: 1px solid $black
+
+.race-cell
+    grid-area: r2s / c3s / r2e / c3e
+    border: 1px solid $black
+
+.class-cell
+    grid-area: r3s / c3s / r3e / c3e
+    border: 1px solid $black
+
+.bg-cell
+    grid-area: r4s / c3s / r4e / c3e
+    border: 1px solid $black
+
+.focus-cell
+    grid-area: r5s / c2s / r5e / c3e
+    border: 1px solid $black
+
+.skills-cell
+    grid-area: r1s / c2s / r2e / c2e
+    border: 1px solid $black
+
+.equip-cell
+    grid-area: r5s / c1s / r5e / c1e
+    border: 1px solid $black
+
+.derive-cell
+    grid-area: r3s / c2s / r4e / c2e
+    border: 1px solid $black
+
+.info-cell
+    grid-area: r6s / c1s / r6e / c3e
+    border: 1px solid $black
+
+.extras-wrap
+    display: flex
+    flex-direction: row
+    flex-wrap: nowrap
+    max-height: 10rem
+
+.extras-list
+    flex-basis: 20%
+    padding-right: 5px
+
+    &:nth-child(even)
+        border-left: 1px solid $black
+        border-right: 1px solid $black

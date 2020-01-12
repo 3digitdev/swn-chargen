@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Biopsionics",
+        "page": 32,
+        "core": [
+            "The psychic’s touch can automatically stabilize a mortally-wounded target as a Main Action. This power must be used on a target within six rounds of their collapse, and does not function on targets that have been decapitated or killed by Heavy weapons. It’s the GM’s decision as to whether a target is intact enough for this power to work.",
+            "As level-0, and heal 1d6+1 hit points of damage. If used on a mortally-wounded target, they revive with the rolled hit points and can act normally on the next round.",
+            "As level-1, but healing 2d6+2 hit points instead.",
+            "As level-2, but healing 2d6+6 hit points instead.",
+            "As level-3, but healing 3d6+8 hit points instead."
+        ]
+    },
+    {
+        "name": "Metapsionics",
+        "page": 34,
+        "core": [
+            "The adept can visually and audibly detect the use of psychic powers. If both the source and target are visible to the metapsion, they can tell who’s using the power, even if it’s normally imperceptible. They gain a +2 bonus on any saving throw versus a psionic power.",
+            "The metapsion’s maximum Effort increases by an additional point.",
+            "The adept can determine whether or not a person is a psychic or has latent psionic abilities through one round of visual inspection. Their saving throw bonus against psionic powers increases to +3.",
+            "The metapsion’s maximum Effort increases by an additional point.",
+            "The metapsion can perform a slightly safer version of torching. Instead of rolling the torching damage die, they simply suffer 10 hit points of damage after torching is used. The damage occurs after the fueled power activates, allowing a psychic at low hit points to trigger a power before falling unconscious. This damage cannot be healed by anything but natural bed rest, though a psychic can be stabilized if this technique drops her to zero hit points."
+        ]
+    },
+    {
+        "name": "Precognition",
+        "page": 36,
+        "core": [
+            "Ask a question about events one minute into the future.",
+            "Ask a question about events one day into the future.",
+            "Ask a question about events one week into the future.",
+            "Ask a question about events three months into the future.",
+            "Ask a question about events one year into the future."
+        ]
+    },
+    {
+        "name": "Telekinesis",
+        "page": 38,
+        "core": [
+            "The psychic can exert force as if with one hand and their own strength.",
+            "The psychic can manipulate objects as if with both hands and can lift up to two hundred kilograms with this ability.",
+            "The psychic can lift or manipulate up to four hundred kilograms and smash a human-sized hole in structures of light wooden construction or lighter as a Main Action.",
+            "The psychic can manipulate up to eight hundred kilograms and can affect as many individual objects at once as they have Telekinesis skill levels.",
+            "The psychic can manipulate up to a metric ton and can smash human-sized holes in TL4-constructed exterior walls, light stone walls, or similar barriers as a Main Action."
+        ]
+    },
+    {
+        "name": "Telepathy",
+        "page": 40,
+        "core": [
+            "Observe emotional states in a target. Intense emotions provide a single word or image related to the focus of the feelings.",
+            "A shallow gestalt with the target’s language centers allows the telepath to understand any form of communication made by the target. If the psychic has the requisite body parts to speak the target’s language, they can communicate with it in turn.",
+            "The psychic’s awareness of the target’s surface cognition is sophisticated enough to read their current thoughts, though it can’t pick up memories or non-obvious connections. The target gets a Mental saving throw to resist this.",
+            "The psychic can drill down into the target’s memory to get a one or two-sentence answer to any single question they ask, or receive a single answering vision of the target’s recollections. The target can attempt a Mental saving throw to resist this power, and whether or not it succeeds the contact is automatically ended. It can be re-established, but only by activating this technique again",
+            "The psychic instantly gets a full and nuanced awareness of everything the target can remember about a particular topic. The target can attempt a Mental saving throw to resist this power, and whether or not it succeeds the contact is automatically ended afterwards. It can be re-established, but only by activating this technique again."
+        ]
+    },
+    {
+        "name": "Teleportation",
+        "page": 42,
+        "core": [
+            "The psychic can teleport up to 10 meters.",
+            "The psychic can teleport up to 100 meters.",
+            "The psychic can teleport up to 10 kilometers.",
+            "The psychic can teleport up to 1,000 kilometers.",
+            "The psychic can teleport anywhere on a planet's surface or near orbit."
+        ]
+    }
+]

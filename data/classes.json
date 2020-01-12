@@ -1,0 +1,36 @@
+{
+    "Warrior": {
+        "partial": [
+            "1 free level in a Combat Focus related to your Background",
+            "+2 HP and +1 Attack Bonus"
+        ],
+        "full": [
+            "Once per scene, as an Instant ability, you can either negate a successful attack roll against you or turn a missed attack roll you made into a hit"
+            "+2 HP extra per character level"
+        ],
+        "hpBonus": 2,
+        "atkBonus": 1
+    },
+    "Expert": {
+        "partial": [
+            "1 free level in a Non-Combat Focus related to your Background",
+            "1 extra skill point per level, usable for a non-psychic, non-combat skill"
+        ],
+        "full": [
+            "Once per scene, you can reroll a failed skill check, taking the higher of the two results"
+        ],
+        "hpBonus": 0,
+        "atkBonus": 0
+    },
+    "Psychic": {
+        "partial": [
+            "1 psychic discipline as a bonus skill.  Cannot earn other psychic skills"
+        ],
+        "full": [
+            "Pick a second psychic discipline (or the same one advanced to level-1)",
+            "If you advance a discipline to level-1, pick a free level-1 technique."
+        ],
+        "hpBonus": 0,
+        "atkBonus": 0
+    }
+}

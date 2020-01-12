@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Character Builder for 'Stars Without Number'">
+    <title>SWN Chargen</title>
+    <!-- Primary CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Poiret One Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <!-- Dosis Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="root">
+    </div>
+    <script src="./index.js"></script>
+    <script type="text/javascript">
+        var app = Elm.Main.init({
+            node: document.getElementById("root")
+        });
+        // Help the user out and warn them before they lose work!
+        // window.onbeforeunload = function (e) {
+        //     var e = e || window.event;
+        //     // For IE and Firefox
+        //     if (e) {
+        //         e.returnValue = 'Leaving';
+        //     }
+        //     // For Safari
+        //     return 'Leaving';
+        // };
+    </script>
+</body>
+</html>

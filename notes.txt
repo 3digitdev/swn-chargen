@@ -1,0 +1,78 @@
+0.  Ask if Non-human (Alien/AI)
+1. Background (20 total)
+2. Background Details
+	Assign Free Skill, then:
+	a) Pick Quick Skills
+	b) Roll 3 times on either 1d6 "Growth" or 1d8 "Learning" table
+	c) Pick 2 Skills from "Learning" table (except "Any Skill")
+3. Class
+	a) Warrior
+	b) Expert
+	c) Psychic
+	d) Adventurer
+		2 Partials from the 3 main choices
+4. Focus
+	Skip this step if making Alien or AI
+5. Pick 1 non-psychic skill
+6. Pick a Combat Skill (Punch/Stab/Shoot)
+7. Choose an Equipment Package
+8.  Attributes
+	a) Assign using [ 14, 12, 11, 10, 9, 7 ]
+	b) Roll 3d6 for each stat, then change any one score to 14
+9. Name (p. 293)
+10. Summary
+    a) Explain Derived Stats:
+	    HP (6 + CON)
+            Sources:
+                model.attributes
+                model.class
+            Modifiers:
+                Class (Full/Partial Warrior)
+	    Atk Bonus (BAB + Shoot/Stab/Punch + [DEX or STR])
+            Sources:
+                model.class
+                model.skills
+                model.attributes
+            Modifiers:
+                Class (Full/Partial Warrior)
+        AC ([10 or Armor] + DEX)
+            Sources:
+                model.equipment
+                model.attributes
+        Saving Throws
+            Sources:
+                model.attributes
+    b) Attributes
+        Sources:
+            model.attributes
+    c) Skills
+        Sources:
+            model.state.bgRolls
+            model.state.bgPicks
+            model.state.skillStyle
+            model.data.skills
+            model.skills
+    d) Focus
+        Sources:
+            model.foci
+    e) Class
+        Sources:
+            model.class
+    f) Background
+        Sources:
+            model.background
+    g) Equipment
+        Sources
+            model.equipment
+
+
+
+
+
+
+
+
+FUTURE:
+- Alien characters
+- Al
+- Homeworld generation
