@@ -3,7 +3,7 @@
 # Compile Elm
 elm make src/Main.elm --optimize --output=public/index.js
 # Compile SASS/LESS/CSS
-sass --no-cache --sourcemap=none --update public/css/main.sass:public/css/main.css
+# sass --no-cache --sourcemap=none --update public/css/main.sass:public/css/main.css
 
 
 # Debug Commands
