@@ -109,6 +109,129 @@ type alias Equipment =
     }
 
 
+type alias NameTableRow =
+    { low : Int
+    , high : Int
+    , male : String
+    , female : String
+    , surname : String
+    }
+
+
+type alias NameTable =
+    List NameTableRow
+
+
+type alias NameTables =
+    { arabic : NameTable
+    , chinese : NameTable
+    , english : NameTable
+    , greek : NameTable
+    , indian : NameTable
+    , japanese : NameTable
+    , latin : NameTable
+    , nigerian : NameTable
+    , russian : NameTable
+    , spanish : NameTable
+    }
+
+
+getNameTableFrom : Model -> NameTable
+getNameTableFrom model =
+    case model.state.nameOrigin of
+        Arabic ->
+            model.data.names.arabic
+
+        Chinese ->
+            model.data.names.chinese
+
+        English ->
+            model.data.names.english
+
+        Greek ->
+            model.data.names.greek
+
+        Indian ->
+            model.data.names.indian
+
+        Japanese ->
+            model.data.names.japanese
+
+        Latin ->
+            model.data.names.latin
+
+        Nigerian ->
+            model.data.names.nigerian
+
+        Russian ->
+            model.data.names.russian
+
+        Spanish ->
+            model.data.names.spanish
+
+
+type NameOrigin
+    = Arabic
+    | Chinese
+    | English
+    | Greek
+    | Indian
+    | Japanese
+    | Latin
+    | Nigerian
+    | Russian
+    | Spanish
+
+
+nameOriginList : List String
+nameOriginList =
+    [ "Arabic"
+    , "Chinese"
+    , "English"
+    , "Greek"
+    , "Indian"
+    , "Japanese"
+    , "Latin"
+    , "Nigerian"
+    , "Russian"
+    , "Spanish"
+    ]
+
+
+asNameOrigin : String -> NameOrigin
+asNameOrigin origin =
+    case origin of
+        "Chinese" ->
+            Chinese
+
+        "English" ->
+            English
+
+        "Greek" ->
+            Greek
+
+        "Indian" ->
+            Indian
+
+        "Japanese" ->
+            Japanese
+
+        "Latin" ->
+            Latin
+
+        "Nigerian" ->
+            Nigerian
+
+        "Russian" ->
+            Russian
+
+        "Spanish" ->
+            Spanish
+
+        _ ->
+            Arabic
+
+
 type alias GameData =
     { backgrounds : List Background
     , classes : List BaseClass
@@ -116,6 +239,7 @@ type alias GameData =
     , foci : List Focus
     , skills : List Skill
     , psySkills : List PsychicSkill
+    , names : NameTables
     }
 
 
@@ -151,6 +275,8 @@ type alias AppState =
     , selectedClasses : ( Maybe BaseClass, Maybe BaseClass )
     , selectedAttrIndex : ( Maybe Int, Maybe Int )
     , selectedArrayIndex : ( Maybe Int, Maybe Int )
+    , nameOrigin : NameOrigin
+    , nameGender : String
     , nameLocked : Bool
     }
 
@@ -205,6 +331,18 @@ initGameData =
     , foci = []
     , skills = []
     , psySkills = []
+    , names =
+        { arabic = []
+        , chinese = []
+        , english = []
+        , greek = []
+        , indian = []
+        , japanese = []
+        , latin = []
+        , nigerian = []
+        , russian = []
+        , spanish = []
+        }
     }
 
 
@@ -224,6 +362,8 @@ initAppState =
     , selectedClasses = ( Nothing, Nothing )
     , selectedAttrIndex = ( Nothing, Nothing )
     , selectedArrayIndex = ( Nothing, Nothing )
+    , nameOrigin = Arabic
+    , nameGender = "Male"
     , nameLocked = False
     }
 
@@ -330,6 +470,33 @@ decodePsySkills =
         )
 
 
+decodeNameTable : JD.Decoder NameTable
+decodeNameTable =
+    JD.list
+        (JD.succeed NameTableRow
+            |> JDP.required "low" JD.int
+            |> JDP.required "high" JD.int
+            |> JDP.required "male" JD.string
+            |> JDP.required "female" JD.string
+            |> JDP.required "surname" JD.string
+        )
+
+
+decodeNameTables : JD.Decoder NameTables
+decodeNameTables =
+    JD.succeed NameTables
+        |> JDP.required "arabic" decodeNameTable
+        |> JDP.required "chinese" decodeNameTable
+        |> JDP.required "english" decodeNameTable
+        |> JDP.required "greek" decodeNameTable
+        |> JDP.required "indian" decodeNameTable
+        |> JDP.required "japanese" decodeNameTable
+        |> JDP.required "latin" decodeNameTable
+        |> JDP.required "nigerian" decodeNameTable
+        |> JDP.required "russian" decodeNameTable
+        |> JDP.required "spanish" decodeNameTable
+
+
 decodeAllData : JD.Decoder GameData
 decodeAllData =
     JD.succeed GameData
@@ -339,6 +506,7 @@ decodeAllData =
         |> JDP.required "foci" decodeFoci
         |> JDP.required "skills" decodeSkills
         |> JDP.required "psychic_skills" decodePsySkills
+        |> JDP.required "names" decodeNameTables
 
 
 
@@ -400,8 +568,9 @@ type Msg
     | SwitchSelectedAttrItems
     | SwitchSelectedItems
       -- Step 10
-    | ToggleCharacterNameLock
-    | SetCharacterName String
+    | SetNameOrigin String
+    | SetNameGender String
+    | RollName
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -433,11 +602,8 @@ update msg model =
             let
                 oldState =
                     model.state
-
-                newState =
-                    { oldState | roll = results }
             in
-            ( { model | state = newState }, callback )
+            ( { model | state = { oldState | roll = results } }, callback )
 
         ChangeStep diff callback ->
             let
@@ -887,15 +1053,44 @@ update msg model =
             , Cmd.none
             )
 
-        ToggleCharacterNameLock ->
+        SetNameOrigin origin ->
             let
                 oldState =
                     model.state
             in
-            ( { model | state = { oldState | nameLocked = not model.state.nameLocked } }, Cmd.none )
+            ( { model | state = { oldState | nameOrigin = origin |> asNameOrigin } }, Cmd.none )
 
-        SetCharacterName text ->
-            ( { model | name = text }, Cmd.none )
+        SetNameGender gender ->
+            let
+                oldState =
+                    model.state
+            in
+            ( { model | state = { oldState | nameGender = gender } }, Cmd.none )
+
+        RollName ->
+            let
+                nameTables =
+                    getNameTableFrom model
+
+                ( firstRoll, secondRoll ) =
+                    case model.state.roll of
+                        [ a, b ] ->
+                            ( a, b )
+
+                        _ ->
+                            ( 1, 1 )
+
+                firstName =
+                    if model.state.nameGender == "Male" then
+                        nameTables |> rollOnNameTable .male firstRoll
+
+                    else
+                        nameTables |> rollOnNameTable .female firstRoll
+
+                lastName =
+                    nameTables |> rollOnNameTable .surname secondRoll
+            in
+            ( { model | name = firstName ++ " " ++ lastName }, Cmd.none )
 
 
 
@@ -905,6 +1100,11 @@ update msg model =
 rollDice : Int -> Int -> Random.Generator (List Int)
 rollDice dice faces =
     Random.list dice (Random.int 1 faces)
+
+
+rollName : Random.Generator ( Int, Int )
+rollName =
+    Random.pair (Random.int 1 100) (Random.int 1 100)
 
 
 setStep : Int -> AppState -> AppState
@@ -1064,6 +1264,15 @@ swapArrayItemsWith ( otherList, otherIdx ) ( thisList, thisIdx ) =
         |> Array.set otherIdx (Maybe.withDefault 0 <| Array.get thisIdx thisArray)
         |> Array.toList
     )
+
+
+rollOnNameTable : (NameTableRow -> String) -> Int -> List NameTableRow -> String
+rollOnNameTable mapFn roll nameTables =
+    nameTables
+        |> List.filter (\t -> List.range t.low t.high |> List.member roll)
+        |> List.map mapFn
+        |> List.head
+        |> Maybe.withDefault "ERROR"
 
 
 
@@ -1806,31 +2015,29 @@ eitherItemEquals item ( one, two ) =
 -}
 renderNameSelection : Model -> Html Msg
 renderNameSelection model =
-    -- Step 10
     let
-        btnText =
-            if model.state.nameLocked then
-                "Edit Name"
-
-            else
-                "Set Name"
+        clickFn =
+            Nothing
+                |> Task.succeed
+                |> Task.perform (\_ -> RollName)
+                |> RollDice 2 100
     in
     div []
         [ h1 [ class "center-text title-text" ] [ text "Character Name" ]
-        , h2 [ class "center-text" ] [ text "(Refer to p.238 of the Rulebook for roll tables)" ]
-        , div [ class "name-wrap" ]
-            [ input
-                [ type_ "text"
-                , class "name-input"
-                , onInput SetCharacterName
-                , disabled model.state.nameLocked
+        , div [ class "rand-name-wrap" ]
+            [ select [ class "name-select", onInput SetNameOrigin ]
+                (nameOriginList
+                    |> List.map
+                        (\origin ->
+                            option [ value origin ] [ text origin ]
+                        )
+                )
+            , select [ class "name-select", onInput SetNameGender ]
+                [ option [ value "Male" ] [ text "Male" ]
+                , option [ value "Female" ] [ text "Female" ]
                 ]
-                []
-            , button
-                [ onClick ToggleCharacterNameLock
-                , disabled (model.name == "")
-                ]
-                [ text btnText ]
+            , h1 [ class "char-name" ] [ text model.name ]
+            , button [ onClick clickFn ] [ text "Random Name" ]
             ]
         , button
             [ class "back"
@@ -1840,7 +2047,6 @@ renderNameSelection model =
         , button
             [ class "next"
             , onClick (ChangeStep 1 NoOp)
-            , disabled <| not <| model.state.nameLocked
             ]
             [ text "Summary" ]
         ]

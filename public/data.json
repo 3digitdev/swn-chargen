@@ -1,15 +1,15 @@
 {
-    "backgrounds":[
+    "backgrounds": [
         {
             "name":"Barbarian",
             "page":10,
             "freeSkill":"Survive",
-            "quickSkills":[
+            "quickSkills": [
                 "Survive",
                 "Notice",
                 "Any Combat"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Physical",
                 "+2 Physical",
@@ -17,7 +17,7 @@
                 "Exert",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Any Combat",
                 "Connect",
                 "Exert",
@@ -32,12 +32,12 @@
             "name":"Clergy",
             "page":10,
             "freeSkill":"Talk",
-            "quickSkills":[
+            "quickSkills": [
                 "Talk",
                 "Perform",
                 "Know"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Mental",
                 "+2 Physical",
@@ -45,7 +45,7 @@
                 "Connect",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Administer",
                 "Connect",
                 "Know",
@@ -60,12 +60,12 @@
             "name":"Courtesan",
             "page":11,
             "freeSkill":"Perform",
-            "quickSkills":[
+            "quickSkills": [
                 "Perform",
                 "Notice",
                 "Connect"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Mental",
                 "+2 Mental",
@@ -73,7 +73,7 @@
                 "Connect",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Any Combat",
                 "Connect",
                 "Exert",
@@ -88,12 +88,12 @@
             "name":"Criminal",
             "page":11,
             "freeSkill":"Sneak",
-            "quickSkills":[
+            "quickSkills": [
                 "Sneak",
                 "Connect",
                 "Talk"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Mental",
                 "+2 Physical",
@@ -101,7 +101,7 @@
                 "Connect",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Administer",
                 "Any Combat",
                 "Connect",
@@ -116,12 +116,12 @@
             "name":"Dilettante",
             "page":11,
             "freeSkill":"Connect",
-            "quickSkills":[
+            "quickSkills": [
                 "Connect",
                 "Know",
                 "Talk"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+1 Any Stat",
                 "+1 Any Stat",
@@ -129,7 +129,7 @@
                 "Connect",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Any Skill",
                 "Any Skill",
                 "Connect",
@@ -144,12 +144,12 @@
             "name":"Entertainer",
             "page":11,
             "freeSkill":"Perform",
-            "quickSkills":[
+            "quickSkills": [
                 "Perform",
                 "Talk",
                 "Connect"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Mental",
                 "+2 Mental",
@@ -157,7 +157,7 @@
                 "Connect",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Any Combat",
                 "Connect",
                 "Exert",
@@ -172,12 +172,12 @@
             "name":"Merchant",
             "page":12,
             "freeSkill":"Trade",
-            "quickSkills":[
+            "quickSkills": [
                 "Trade",
                 "Talk",
                 "Connect"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Mental",
                 "+2 Mental",
@@ -185,7 +185,7 @@
                 "Connect",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Administer",
                 "Any Combat",
                 "Connect",
@@ -200,12 +200,12 @@
             "name":"Noble",
             "page":12,
             "freeSkill":"Lead",
-            "quickSkills":[
+            "quickSkills": [
                 "Lead",
                 "Connect",
                 "Administer"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Mental",
                 "+2 Mental",
@@ -213,7 +213,7 @@
                 "Connect",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Administer",
                 "Any Combat",
                 "Connect",
@@ -228,12 +228,12 @@
             "name":"Official",
             "page":12,
             "freeSkill":"Administer",
-            "quickSkills":[
+            "quickSkills": [
                 "Administer",
                 "Talk",
                 "Connect"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Mental",
                 "+2 Mental",
@@ -241,7 +241,7 @@
                 "Connect",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Administer",
                 "Any Skill",
                 "Connect",
@@ -256,12 +256,12 @@
             "name":"Peasant",
             "page":12,
             "freeSkill":"Exert",
-            "quickSkills":[
+            "quickSkills": [
                 "Exert",
                 "Sneak",
                 "Survive"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Physical",
                 "+2 Physical",
@@ -269,7 +269,7 @@
                 "Exert",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Connect",
                 "Exert",
                 "Fix",
@@ -284,12 +284,12 @@
             "name":"Physician",
             "page":13,
             "freeSkill":"Heal",
-            "quickSkills":[
+            "quickSkills": [
                 "Heal",
                 "Know",
                 "Notice"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Physical",
                 "+2 Mental",
@@ -297,7 +297,7 @@
                 "Connect",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Administer",
                 "Connect",
                 "Fix",
@@ -312,12 +312,12 @@
             "name":"Pilot",
             "page":13,
             "freeSkill":"Pilot",
-            "quickSkills":[
+            "quickSkills": [
                 "Pilot",
                 "Fix",
                 "Shoot or Trade"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Physical",
                 "+2 Physical",
@@ -325,7 +325,7 @@
                 "Connect",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Connect",
                 "Exert",
                 "Fix",
@@ -340,12 +340,12 @@
             "name":"Politician",
             "page":14,
             "freeSkill":"Talk",
-            "quickSkills":[
+            "quickSkills": [
                 "Talk",
                 "Lead",
                 "Connect"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Mental",
                 "+2 Mental",
@@ -353,7 +353,7 @@
                 "Connect",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Administer",
                 "Connect",
                 "Connect",
@@ -368,12 +368,12 @@
             "name":"Scholar",
             "page":14,
             "freeSkill":"Know",
-            "quickSkills":[
+            "quickSkills": [
                 "Know",
                 "Connect",
                 "Administer"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Mental",
                 "+2 Mental",
@@ -381,7 +381,7 @@
                 "Connect",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Administer",
                 "Connect",
                 "Fix",
@@ -396,12 +396,12 @@
             "name":"Soldier",
             "page":14,
             "freeSkill":"Any Combat",
-            "quickSkills":[
+            "quickSkills": [
                 "Any Combat",
                 "Exert",
                 "Survive"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Physical",
                 "+2 Physical",
@@ -409,7 +409,7 @@
                 "Exert",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Administer",
                 "Any Combat",
                 "Exert",
@@ -424,12 +424,12 @@
             "name":"Spacer",
             "page":14,
             "freeSkill":"Fix",
-            "quickSkills":[
+            "quickSkills": [
                 "Fix",
                 "Pilot",
                 "Program"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Physical",
                 "+2 Physical",
@@ -437,7 +437,7 @@
                 "Exert",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Administer",
                 "Connect",
                 "Exert",
@@ -452,12 +452,12 @@
             "name":"Technician",
             "page":15,
             "freeSkill":"Fix",
-            "quickSkills":[
+            "quickSkills": [
                 "Fix",
                 "Exert",
                 "Notice"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Physical",
                 "+2 Mental",
@@ -465,7 +465,7 @@
                 "Connet",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Administer",
                 "Connect",
                 "Exert",
@@ -480,12 +480,12 @@
             "name":"Thug",
             "page":15,
             "freeSkill":"Any Combat",
-            "quickSkills":[
+            "quickSkills": [
                 "Any Combat",
                 "Talk",
                 "Connect"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Mental",
                 "+2 Physical",
@@ -493,7 +493,7 @@
                 "Connect",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Any Combat",
                 "Connect",
                 "Exert",
@@ -508,12 +508,12 @@
             "name":"Vagabond",
             "page":15,
             "freeSkill":"Survive",
-            "quickSkills":[
+            "quickSkills": [
                 "Survive",
                 "Sneak",
                 "Notice"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+2 Physical",
                 "+2 Physical",
@@ -521,7 +521,7 @@
                 "Exert",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Any Combat",
                 "Connect",
                 "Notice",
@@ -536,10 +536,10 @@
             "name":"Worker",
             "page":15,
             "freeSkill":"Work",
-            "quickSkills":[
+            "quickSkills": [
                 "Work"
             ],
-            "growth":[
+            "growth": [
                 "+1 Any Stat",
                 "+1 Any Stat",
                 "+1 Any Stat",
@@ -547,7 +547,7 @@
                 "Exert",
                 "Any Skill"
             ],
-            "learning":[
+            "learning": [
                 "Administer",
                 "Any Skill",
                 "Connect",
@@ -561,11 +561,11 @@
     ],
     "classes":{
         "Warrior":{
-            "partial":[
+            "partial": [
                 "1 free level in a Combat Focus related to your Background",
                 "+2 HP and +1 Attack Bonus"
             ],
-            "full":[
+            "full": [
                 "Once per scene, as an Instant ability, you can either negate a successful attack roll against you or turn a missed attack roll you made into a hit",
                 "+2 HP extra per character level"
             ],
@@ -573,21 +573,21 @@
             "atkBonus":1
         },
         "Expert":{
-            "partial":[
+            "partial": [
                 "1 free level in a Non-Combat Focus related to your Background",
                 "1 extra skill point per level, usable for a non-psychic, non-combat skill"
             ],
-            "full":[
+            "full": [
                 "Once per scene, you can reroll a failed skill check, taking the higher of the two results"
             ],
             "hpBonus":0,
             "atkBonus":0
         },
         "Psychic":{
-            "partial":[
+            "partial": [
                 "1 psychic discipline as a bonus skill.  Cannot earn other psychic skills"
             ],
-            "full":[
+            "full": [
                 "Pick a second psychic discipline (or the same one advanced to level-1)",
                 "If you advance a discipline to level-1, pick a free level-1 technique."
             ],
@@ -595,10 +595,10 @@
             "atkBonus":0
         }
     },
-    "equipment":[
+    "equipment": [
         {
             "name":"Barbarian",
-            "loadout":[
+            "loadout": [
                 "Spear (1d6+1 damage)",
                 "Primitive hide armor (AC 13)",
                 "Primitive shield (+1 AC)",
@@ -611,7 +611,7 @@
         },
         {
             "name":"Blade",
-            "loadout":[
+            "loadout": [
                 "Monoblade sword (1d8+1 dmg)",
                 "Woven Body Armor (AC 15)",
                 "Secure Clothing (AC 13)",
@@ -624,7 +624,7 @@
         },
         {
             "name":"Thief",
-            "loadout":[
+            "loadout": [
                 "Laser Pistol (1d6 damage)",
                 "Armored Undersuit (AC 13)",
                 "Monoblade knife (1d6 damage)",
@@ -638,7 +638,7 @@
         },
         {
             "name":"Hacker",
-            "loadout":[
+            "loadout": [
                 "Laser Pistol (1d6 damage)",
                 "Secure Clothing (AC 13)",
                 "Postech toolkit",
@@ -653,7 +653,7 @@
         },
         {
             "name":"Gunslinger",
-            "loadout":[
+            "loadout": [
                 "Laser Pistol (1d6 damage)",
                 "Armored Undersuit (AC 13)",
                 "Monoblade Knife (1d6 damage)",
@@ -665,7 +665,7 @@
         },
         {
             "name":"Soldier",
-            "loadout":[
+            "loadout": [
                 "Combat Rifle (1d12 damage)",
                 "Woven Body Armor (AC 15)",
                 "Knife (1d4 damage)",
@@ -677,7 +677,7 @@
         },
         {
             "name":"Scout",
-            "loadout":[
+            "loadout": [
                 "Laser Rifle (1d10 damage)",
                 "Armored vacc suit (AC 13)",
                 "Knife (1d4 damage)",
@@ -692,7 +692,7 @@
         },
         {
             "name":"Medic",
-            "loadout":[
+            "loadout": [
                 "Laser Pistol (1d6 damage)",
                 "Secure Clothing (AC 13)",
                 "4 Lazarus patches",
@@ -706,7 +706,7 @@
         },
         {
             "name":"Civilian",
-            "loadout":[
+            "loadout": [
                 "Secure Clothing (AC 13)",
                 "Compad",
                 "700 credits"
@@ -714,7 +714,7 @@
         },
         {
             "name":"Technician",
-            "loadout":[
+            "loadout": [
                 "Laser Pistol (1d6 damage)",
                 "Armored Undersuit (AC 13)",
                 "Monoblade knife (1d6 damage)",
@@ -728,177 +728,177 @@
             ]
         }
     ],
-    "foci":[
+    "foci": [
         {
             "name":"Alert",
-            "description":[
+            "description": [
                 "Gain Notice as a bonus skill. You cannot be surprised, nor can others use the Execution Attack option on you.  When you roll initiative, roll twice and take the best result.",
                 "You always act first in a combat round unless someone else involved is also this Alert."
             ]
         },
         {
             "name":"Armsman",
-            "description":[
+            "description": [
                 "Gain Stab as a bonus skill. You can draw or sheath a Stowed melee or thrown weapon as an Instant action. You may add your Stab skill level to a melee or thrown weapon’s damage roll or Shock damage, assuming it has any to begin with.",
                 "Your primitive melee and thrown weapons count as TL4 weapons for the purpose of overcoming advanced armors. Even on a miss with a melee weapon, you do an unmodified 1d4 damage to the target, plus any Shock damage. This bonus damage doesn’t apply to thrown weapons or attacks that use the Punch skill."
             ]
         },
         {
             "name":"Assassin",
-            "description":[
+            "description": [
                 "Gain Sneak as a bonus skill. You can conceal an object no larger than a knife or pistol from anything less invasive than a strip search, including normal TL4 weapon detection devices. You can draw or produce this object as an On Turn action, and your point-blank ranged attacks made from surprise with it cannot miss the target.",
                 "You can take a Move action on the same round as you make an Execution Attack, closing rapidly with a target before you attack. You may split this Move action when making an Execution Attack, taking part of it before you murder your target and part of it afterwards. This movement happens too quickly to alert a victim or to be hindered by bodyguards, barring an actual physical wall of meat between you and your prey."
             ]
         },
         {
             "name":"Authority",
-            "description":[
+            "description": [
                 "Gain Lead as a bonus skill. Once per day, you can make a request from an NPC who is not openly hostile to you, rolling a Cha/Lead skill check at a difficulty of the NPC’s Morale score. If you succeed, they will comply with the request, provided it is not harmful or extremely uncharacteristic.",
                 "Those who follow you are fired with confidence.  Any NPC being directly led by you gains a Morale and hit roll bonus equal to your Lead skill and a +1 bonus on all skill checks.  Your followers will not act against your interests unless under extreme pressure."
             ]
         },
         {
             "name":"Close Combatant",
-            "description":[
+            "description": [
                 "Gain any combat skill as a bonus skill. You can use pistol-sized ranged weapons in melee without suffering penalties for the proximity of melee attackers. You ignore Shock damage from melee assailants, even if you’re unarmored at the time.",
                 "The Shock damage from your melee attacks treats all targets as if they were AC 10. The Fighting Withdrawal combat action is treated as an On Turn action for you and can be performed freely."
             ]
         },
         {
             "name":"Connected",
-            "description":[
+            "description": [
                 "Gain Connect as a bonus skill. If you’ve spent at least a week in a not-entirely-hostile location, you’ll have built a web of contacts willing to do favors for you that are no more than mildly illegal.  You can call on one favor per game day and the GM decides how far they’ll go for you.",
                 "Once per game session, if it’s not entirely implausible, you meet someone you know who is willing to do modest favors for you. You can decide when and where you want to meet this person, but the GM decides who they are and what they can do for you."
             ]
         },
         {
             "name":"Die Hard",
-            "description":[
+            "description": [
                 "You gain an extra 2 maximum hit points per level. This bonus applies retroactively if you take this focus after first level. You automatically stabilize if mortally wounded by anything smaller than a Heavy weapon.",
                 "The first time each day that you are reduced to zero hit points by an injury, you instead survive with one hit point remaining. This ability can’t save you from Heavy weapons or similar trauma."
             ]
         },
         {
             "name":"Diplomat",
-            "description":[
+            "description": [
                 "Gain Talk as a bonus skill. You speak all the languages common to the sector and can learn new ones to a workable level in a week, becoming fluent in a month. Reroll 1s on any skill check dice related to negotiation or diplomacy.",
                 "Once per game session, shift an intelligent NPC’s reaction roll one step closer to friendly if you can talk to them for at least thirty seconds."
             ]
         },
         {
             "name":"Gunslinger",
-            "description":[
+            "description": [
                 "Gain Shoot as a bonus skill. You can draw or holster a Stowed ranged weapon as an On Turn action. You may add your Shoot skill level to a ranged weapon’s damage roll.",
                 "Once per round, you can reload a ranged weapon as an On Turn action if it takes no more than one round to reload. Even on a miss with a Shoot attack, you do an unmodified 1d4 damage."
             ]
         },
         {
             "name":"Hacker",
-            "description":[
+            "description": [
                 "Gain Program as a bonus skill. When attempting to hack a database or computerized system, roll 3d6 on the skill check and drop the lowest die.",
                 "Your hack duration increases to 1d4+Program skill x 10 minutes. You have an instinctive understanding of the tech; you never need to learn the data protocols for a strange system and are always treated as familiar with it."
             ]
         },
         {
             "name":"Healer",
-            "description":[
+            "description": [
                 "Gain Heal as a bonus skill. You may attempt to stabilize one mortally-wounded adjacent person per round as an On Turn action. When rolling Heal skill checks, roll 3d6 and drop the lowest die.",
                 "Stims or other technological healing devices applied by you heal twice as many hit points as normal. Using only basic medical supplies, you can heal 1d6+Heal skill hit points of damage to every injured or wounded person in your group with ten minutes of first aid spread among them. Such healing can be applied to a given target only once per day."
             ]
         },
         {
             "name":"Henchkeeper",
-            "description":[
+            "description": [
                 "Gain Lead as a bonus skill. You can acquire henchmen within 24 hours of arriving in a community, assuming anyone is suitable hench material. These henchmen will not fight except to save their own lives, but will escort you on adventures and risk great danger to help you. Most henchmen will be treated as Peaceful Humans from the Xenobestiary section of the book. You can have one henchmen at a time for every three character levels you have, rounded up. You can release henchmen with no hard feelings at any plausible time and pick them back up later should you be without a current henchman.",
                 "Your henchmen are remarkably loyal and determined, and will fight for you against anything but clearly overwhelming odds. Whether through natural competence or their devotion to you, they’re treated as Martial Humans from the Xenobestiary section. You can make faithful henchmen out of skilled and highly-capable NPCs, but this requires that you actually have done them some favor or help that would reasonably earn such fierce loyalty."
             ]
         },
         {
             "name":"Ironhide",
-            "description":[
+            "description": [
                 "You have an innate Armor Class of 15 plus half your character level, rounded up.",
                 "Your abilities are so effective that they render you immune to unarmed attacks or primitive weaponry as if you wore powered armor."
             ]
         },
         {
             "name":"Psychic Training",
-            "description":[
+            "description": [
                 "Gain any psychic skill as a bonus. If this improves it to level-1 proficiency, choose a free level-1 technique from that discipline. Your maximum Effort increases by one.",
                 "When you advance a level, the bonus psychic skill you chose for the first level of the focus automatically gets one skill point put toward increasing it or purchasing a technique from it. You may save these points for later, if more are required to raise the skill or buy a particular technique. These points are awarded retroactively if you take this focus level later in the game."
             ]
         },
         {
             "name":"Savage Fray",
-            "description":[
+            "description": [
                 "Gain Stab as a bonus skill. All enemies adjacent to you at the end of your turn whom you have not attacked suffer the Shock damage of your weapon if their Armor Class is not too high to be affected.",
                 "After suffering your first melee hit in a round, any further melee attacks from other assailants automatically miss you. If the attacker who hits you has multiple attacks, they may attempt all of them, but other foes around you simply miss."
             ]
         },
         {
             "name":"Shocking Assault",
-            "description":[
+            "description": [
                 "Gain Punch or Stab as a bonus skill. The Shock damage of your weapon treats all targets as if they were AC 10, assuming your weapon is capable of harming the target in the first place.",
                 "In addition, you gain a +2 bonus to the Shock damage rating of all melee weapons and unarmed attacks. Regular hits never do less damage than this Shock would do on a miss."
             ]
         },
         {
             "name":"Sniper",
-            "description":[
+            "description": [
                 "Gain Shoot as a bonus skill. When making a skill check for an Execution Attack or target shooting, roll 3d6 and drop the lowest die.",
                 "A target hit by your Execution Attack takes a -4 penalty on the Physical saving throw to avoid immediate mortal injury. Even if the save is successful, the target takes double the normal damage inflicted by the attack."
             ]
         },
         {
             "name":"Specialist",
-            "description":[
+            "description": [
                 "Gain a non-combat, non-psychic skill as a bonus. Roll 3d6 and drop the lowest die for all skill checks in this skill.",
                 "Roll 4d6 and drop the two lowest dice for all skill checks in this skill."
             ]
         },
         {
             "name":"Star Captain",
-            "description":[
+            "description": [
                 "Gain Lead as a bonus skill. Your ship gains 2 extra Command Points at the start of each turn.",
                 "A ship you captain gains bonus hit points equal to 20% of its maximum at the start of each combat. Damage is taken from these bonus points first, and they vanish at the end of the fight and do not require repairs to replenish before the next. In addition, once per engagement, you may resolve a Crisis as an Instant action by explaining how your leadership resolves the problem."
             ]
         },
         {
             "name":"Starfarer",
-            "description":[
+            "description": [
                 "Gain Pilot as a bonus skill. You automatically succeed at all spike drill-related skill checks of difficulty 10 or less.",
                 "Double your Pilot skill for all spike drill-related skill checks. Spike drives of ships you navigate are treated as one level higher; thus, a drive-1 is treated as a drive-2, up to a maximum of drive-7. Spike drills you personally oversee take only half the time they would otherwise require."
             ]
         },
         {
             "name":"Tinkerer",
-            "description":[
+            "description": [
                 "Gain Fix as a bonus skill. Your Maintenance score is doubled, allowing you to maintain twice as many mods. Both ship and gear mods cost only half their usual price in credits, though pretech salvage requirements remain the same.",
                 "Your Fix skill is treated as one level higher for purposes of building and maintaining mods and calculating your Maintenance score. Advanced mods require one fewer pretech salvage part to make, down to a minimum of zero."
             ]
         },
         {
             "name":"Unarmed Combat",
-            "description":[
+            "description": [
                 "Gain Punch as a bonus skill. Your unarmed attacks become more dangerous as your Punch skill increases. At level-0, they do 1d6 damage. At level-1, they do 1d8 damage. At level-2 they do 1d10, level-3 does 1d12, and level-4 does 1d12+1. At Punch-1 or better, they have the Shock quality equal to your Punch skill against AC 15 or less. While you normally add your Punch skill level to any unarmed damage, don’t add it twice to this Shock damage.",
                 "You know locks and twists that use powered servos against their wearer. Your unarmed attacks count as TL4 weapons for the purpose of overcoming advanced armors. Even on a miss with a Punch attack, you do an unmodified 1d6 damage."
             ]
         },
         {
             "name":"Wanderer",
-            "description":[
+            "description": [
                 "Gain Survive as a bonus skill. You can convey basic ideas in all the common languages of the sector. You can always find free transport to a desired destination for yourself and a small group of your friends provided any traffic goes to the place. Finding this transport takes no more than an hour, but it may not be a strictly legitimate means of travel and may require working passage.",
                 "You can forge, scrounge, or snag travel papers and identification for the party with 1d6 hours of work. These papers and permits will stand up to ordinary scrutiny, but require an opposed Int/Administer versus Wis/Notice check if examined by an official while the PC is actually wanted by the state for some crime. When finding transport for the party, the transportation always makes the trip at least as fast as a dedicated charter would."
             ]
         },
         {
             "name":"Wild Psychic",
-            "description":[
+            "description": [
                 "Pick a psychic discipline. You gain an ability equivalent to the level-0 core power of that discipline. Optionally, you may instead pick a level-1 technique from that discipline, but that technique must stand alone; you can’t pick one that augments another technique or core ability. For example, you could pick the Telekinetic Armory technique from Telekinesis, because that ability does not require the use of any other Telekinesis power. You could not pick the Mastered Succor ability from Biopsionics, because that technique is meant to augment another power you don’t have.",
                 "You now have a maximum Effort of two points. You may pick a second ability according to the guidelines above. This second does not need to be a stand-alone technique if it augments the power you chose for level 1 of this focus. Thus, if your first pick was gaining the level-0 power of Psychic Succor, your second could be Mastered Succor. You still could not get the level-1 core power of Psychic Succor, however, as you’re still restricted to level-0."
             ]
         }
     ],
-    "skills":[
+    "skills": [
         {
             "name":"Administer",
             "description":"Manage an organization, handle paperwork, analyze records, and keep an institution functioning on a daily basis. Roll it for bureaucratic expertise, organizational management, legal knowledge, dealing with government agencies, and understanding how institutions really work."
@@ -1043,5 +1043,1777 @@
                 "The psychic can teleport anywhere on a planet's surface or near orbit."
             ]
         }
-    ]
+    ],
+    "names": {
+        "arabic": [
+            {
+                "low": 1,
+                "high": 4,
+                "male": "Aamir",
+                "female": "Aisha",
+                "surname": "Abdel"
+            },
+            {
+                "low": 5,
+                "high": 8,
+                "male": "Ayub",
+                "female": "Alimah",
+                "surname": "Awad"
+            },
+            {
+                "low": 9,
+                "high": 12,
+                "male": "Binyamin",
+                "female": "Badia",
+                "surname": "Dahhak"
+            },
+            {
+                "low": 13,
+                "high": 16,
+                "male": "Efraim",
+                "female": "Bisharah",
+                "surname": "Essa"
+            },
+            {
+                "low": 17,
+                "high": 20,
+                "male": "Ibrahim",
+                "female": "Chanda",
+                "surname": "Hanna"
+            },
+            {
+                "low": 21,
+                "high": 24,
+                "male": "Ilyas",
+                "female": "Daliya",
+                "surname": "Harbi"
+            },
+            {
+                "low": 25,
+                "high": 28,
+                "male": "Ismail",
+                "female": "Fatimah",
+                "surname": "Hassan"
+            },
+            {
+                "low": 29,
+                "high": 32,
+                "male": "Jibril",
+                "female": "Ghania",
+                "surname": "Isa"
+            },
+            {
+                "low": 33,
+                "high": 36,
+                "male": "Jumanah",
+                "female": "Halah",
+                "surname": "Kasim"
+            },
+            {
+                "low": 37,
+                "high": 40,
+                "male": "Kazi",
+                "female": "Kaylah",
+                "surname": "Katib"
+            },
+            {
+                "low": 41,
+                "high": 44,
+                "male": "Lut",
+                "female": "Khayrah",
+                "surname": "Khalil"
+            },
+            {
+                "low": 45,
+                "high": 48,
+                "male": "Matta",
+                "female": "Layla",
+                "surname": "Malik"
+            },
+            {
+                "low": 49,
+                "high": 52,
+                "male": "Mohammed",
+                "female": "Mina",
+                "surname": "Mansoor"
+            },
+            {
+                "low": 53,
+                "high": 56,
+                "male": "Mubarak",
+                "female": "Munisa",
+                "surname": "Mazin"
+            },
+            {
+                "low": 57,
+                "high": 60,
+                "male": "Mustafa",
+                "female": "Mysha",
+                "surname": "Musa"
+            },
+            {
+                "low": 61,
+                "high": 64,
+                "male": "Nazir",
+                "female": "Naimah",
+                "surname": "Najeeb"
+            },
+            {
+                "low": 65,
+                "high": 68,
+                "male": "Rahim",
+                "female": "Nissa",
+                "surname": "Namari"
+            },
+            {
+                "low": 69,
+                "high": 72,
+                "male": "Reza",
+                "female": "Nura",
+                "surname": "Naser"
+            },
+            {
+                "low": 73,
+                "high": 76,
+                "male": "Sharif",
+                "female": "Parveen",
+                "surname": "Rahman"
+            },
+            {
+                "low": 77,
+                "high": 80,
+                "male": "Taimur",
+                "female": "Rana",
+                "surname": "Rasheed"
+            },
+            {
+                "low": 81,
+                "high": 84,
+                "male": "Usman",
+                "female": "Shalha",
+                "surname": "Saleh"
+            },
+            {
+                "low": 85,
+                "high": 88,
+                "male": "Yakub",
+                "female": "Suhira",
+                "surname": "Salim"
+            },
+            {
+                "low": 89,
+                "high": 92,
+                "male": "Yusuf",
+                "female": "Tahirah",
+                "surname": "Shadi"
+            },
+            {
+                "low": 93,
+                "high": 96,
+                "male": "Zakariya",
+                "female": "Yasmin",
+                "surname": "Sulaiman"
+            },
+            {
+                "low": 97,
+                "high": 100,
+                "male": "Zubair",
+                "female": "Zulehka",
+                "surname": "Tabari"
+            }
+        ],
+        "chinese": [
+            {
+                "low": 1,
+                "high": 4,
+                "male": "Aiguo",
+                "female": "Biyu",
+                "surname": "Bai"
+            },
+            {
+                "low": 5,
+                "high": 8,
+                "male": "Bohai",
+                "female": "Changying",
+                "surname": "Cao"
+            },
+            {
+                "low": 9,
+                "high": 12,
+                "male": "Chao",
+                "female": "Daiyu",
+                "surname": "Chen"
+            },
+            {
+                "low": 13,
+                "high": 16,
+                "male": "Dai",
+                "female": "Huidai",
+                "surname": "Cui"
+            },
+            {
+                "low": 17,
+                "high": 20,
+                "male": "Dawei",
+                "female": "Huiliang",
+                "surname": "Ding"
+            },
+            {
+                "low": 21,
+                "high": 24,
+                "male": "Duyi",
+                "female": "Jia",
+                "surname": "Du"
+            },
+            {
+                "low": 25,
+                "high": 28,
+                "male": "Fa",
+                "female": "Jingfei",
+                "surname": "Fang"
+            },
+            {
+                "low": 29,
+                "high": 32,
+                "male": "Fu",
+                "female": "Lan",
+                "surname": "Fu"
+            },
+            {
+                "low": 33,
+                "high": 36,
+                "male": "Gui",
+                "female": "Liling",
+                "surname": "Guo"
+            },
+            {
+                "low": 37,
+                "high": 40,
+                "male": "Hong",
+                "female": "Liu",
+                "surname": "Han"
+            },
+            {
+                "low": 41,
+                "high": 44,
+                "male": "Jianyu",
+                "female": "Meili",
+                "surname": "Hao"
+            },
+            {
+                "low": 45,
+                "high": 48,
+                "male": "Kang",
+                "female": "Niu",
+                "surname": "Huang"
+            },
+            {
+                "low": 49,
+                "high": 52,
+                "male": "Li",
+                "female": "Peizhi",
+                "surname": "Lei"
+            },
+            {
+                "low": 53,
+                "high": 56,
+                "male": "Niu",
+                "female": "Qiao",
+                "surname": "Li"
+            },
+            {
+                "low": 57,
+                "high": 60,
+                "male": "Peng",
+                "female": "Qing",
+                "surname": "Liang"
+            },
+            {
+                "low": 61,
+                "high": 64,
+                "male": "Quan",
+                "female": "Ruolan",
+                "surname": "Liu"
+            },
+            {
+                "low": 65,
+                "high": 68,
+                "male": "Ru",
+                "female": "Shu",
+                "surname": "Long"
+            },
+            {
+                "low": 69,
+                "high": 72,
+                "male": "Shen",
+                "female": "Suyin",
+                "surname": "Song"
+            },
+            {
+                "low": 73,
+                "high": 76,
+                "male": "Shi",
+                "female": "Ting",
+                "surname": "Tan"
+            },
+            {
+                "low": 77,
+                "high": 80,
+                "male": "Song",
+                "female": "Xia",
+                "surname": "Tang"
+            },
+            {
+                "low": 81,
+                "high": 84,
+                "male": "Tao",
+                "female": "Xiaowen",
+                "surname": "Wang"
+            },
+            {
+                "low": 85,
+                "high": 88,
+                "male": "Xue",
+                "female": "Xiulan",
+                "surname": "Wu"
+            },
+            {
+                "low": 89,
+                "high": 92,
+                "male": "Yi",
+                "female": "Ya",
+                "surname": "Xing"
+            },
+            {
+                "low": 93,
+                "high": 96,
+                "male": "Yuan",
+                "female": "Ying",
+                "surname": "Yang"
+            },
+            {
+                "low": 97,
+                "high": 100,
+                "male": "Zian",
+                "female": "Zhilan",
+                "surname": "Zhang"
+            }
+        ],
+        "english": [
+            {
+                "low": 1,
+                "high": 4,
+                "male": "Adam",
+                "female": "Abigail",
+                "surname": "Barker"
+            },
+            {
+                "low": 5,
+                "high": 8,
+                "male": "Albert",
+                "female": "Anne",
+                "surname": "Brown"
+            },
+            {
+                "low": 9,
+                "high": 12,
+                "male": "Alfred",
+                "female": "Beatrice",
+                "surname": "Butler"
+            },
+            {
+                "low": 13,
+                "high": 16,
+                "male": "Allan",
+                "female": "Blanche",
+                "surname": "Carter"
+            },
+            {
+                "low": 17,
+                "high": 20,
+                "male": "Archibald",
+                "female": "Catherine",
+                "surname": "Chapman"
+            },
+            {
+                "low": 21,
+                "high": 24,
+                "male": "Arthur",
+                "female": "Charlotte",
+                "surname": "Collins"
+            },
+            {
+                "low": 25,
+                "high": 28,
+                "male": "Basil",
+                "female": "Claire",
+                "surname": "Cook"
+            },
+            {
+                "low": 29,
+                "high": 32,
+                "male": "Charles",
+                "female": "Eleanor",
+                "surname": "Davies"
+            },
+            {
+                "low": 33,
+                "high": 36,
+                "male": "Colin",
+                "female": "Elizabeth",
+                "surname": "Gray"
+            },
+            {
+                "low": 37,
+                "high": 40,
+                "male": "Donald",
+                "female": "Emily",
+                "surname": "Green"
+            },
+            {
+                "low": 41,
+                "high": 44,
+                "male": "Douglas",
+                "female": "Emma",
+                "surname": "Harris"
+            },
+            {
+                "low": 45,
+                "high": 48,
+                "male": "Edgar",
+                "female": "Georgia",
+                "surname": "Jackson"
+            },
+            {
+                "low": 49,
+                "high": 52,
+                "male": "Edmund",
+                "female": "Harriet",
+                "surname": "Jones"
+            },
+            {
+                "low": 53,
+                "high": 56,
+                "male": "Edward",
+                "female": "Joan",
+                "surname": "Lloyd"
+            },
+            {
+                "low": 57,
+                "high": 60,
+                "male": "George",
+                "female": "Judy",
+                "surname": "Miller"
+            },
+            {
+                "low": 61,
+                "high": 64,
+                "male": "Harold",
+                "female": "Julia",
+                "surname": "Roberts"
+            },
+            {
+                "low": 65,
+                "high": 68,
+                "male": "Henry",
+                "female": "Lucy",
+                "surname": "Smith"
+            },
+            {
+                "low": 69,
+                "high": 72,
+                "male": "Ian",
+                "female": "Lydia",
+                "surname": "Taylor"
+            },
+            {
+                "low": 73,
+                "high": 76,
+                "male": "James",
+                "female": "Margaret",
+                "surname": "Thomas"
+            },
+            {
+                "low": 77,
+                "high": 80,
+                "male": "John",
+                "female": "Mary",
+                "surname": "Turner"
+            },
+            {
+                "low": 81,
+                "high": 84,
+                "male": "Lewis",
+                "female": "Molly",
+                "surname": "Watson"
+            },
+            {
+                "low": 85,
+                "high": 88,
+                "male": "Oliver",
+                "female": "Nora",
+                "surname": "White"
+            },
+            {
+                "low": 89,
+                "high": 92,
+                "male": "Philip",
+                "female": "Rosie",
+                "surname": "Williams"
+            },
+            {
+                "low": 93,
+                "high": 96,
+                "male": "Richard",
+                "female": "Sarah",
+                "surname": "Wood"
+            },
+            {
+                "low": 97,
+                "high": 100,
+                "male": "William",
+                "female": "Victoria",
+                "surname": "Young"
+            }
+        ],
+        "greek": [
+            {
+                "low": 1,
+                "high": 4,
+                "male": "Alexander",
+                "female": "Alexandra",
+                "surname": "Andreas"
+            },
+            {
+                "low": 5,
+                "high": 8,
+                "male": "Alexius",
+                "female": "Amalia",
+                "surname": "Argyros"
+            },
+            {
+                "low": 9,
+                "high": 12,
+                "male": "Anastasius",
+                "female": "Callisto",
+                "surname": "Dimitriou"
+            },
+            {
+                "low": 13,
+                "high": 16,
+                "male": "Christodoulos",
+                "female": "Charis",
+                "surname": "Floros"
+            },
+            {
+                "low": 17,
+                "high": 20,
+                "male": "Christos",
+                "female": "Chloe",
+                "surname": "Gavras"
+            },
+            {
+                "low": 21,
+                "high": 24,
+                "male": "Damian",
+                "female": "Dorothea",
+                "surname": "Ioannidis"
+            },
+            {
+                "low": 25,
+                "high": 28,
+                "male": "Dimitris",
+                "female": "Elena",
+                "surname": "Katsaros"
+            },
+            {
+                "low": 29,
+                "high": 32,
+                "male": "Dysmas",
+                "female": "Eudoxia",
+                "surname": "Kyrkos"
+            },
+            {
+                "low": 33,
+                "high": 36,
+                "male": "Elias",
+                "female": "Giada",
+                "surname": "Leventis"
+            },
+            {
+                "low": 37,
+                "high": 40,
+                "male": "Giorgos",
+                "female": "Helena",
+                "surname": "Makris"
+            },
+            {
+                "low": 41,
+                "high": 44,
+                "male": "Ioannis",
+                "female": "Ioanna",
+                "surname": "Metaxas"
+            },
+            {
+                "low": 45,
+                "high": 48,
+                "male": "Konstantinos",
+                "female": "Lydia",
+                "surname": "Nikolaidis"
+            },
+            {
+                "low": 49,
+                "high": 52,
+                "male": "Lambros",
+                "female": "Melania",
+                "surname": "Pallis"
+            },
+            {
+                "low": 53,
+                "high": 56,
+                "male": "Leonidas",
+                "female": "Melissa",
+                "surname": "Pappas"
+            },
+            {
+                "low": 57,
+                "high": 60,
+                "male": "Marcos",
+                "female": "Nika",
+                "surname": "Petrou"
+            },
+            {
+                "low": 61,
+                "high": 64,
+                "male": "Miltiades",
+                "female": "Nikolina",
+                "surname": "Raptis"
+            },
+            {
+                "low": 65,
+                "high": 68,
+                "male": "Nestor",
+                "female": "Olympias",
+                "surname": "Simonides"
+            },
+            {
+                "low": 69,
+                "high": 72,
+                "male": "Nikos",
+                "female": "Philippa",
+                "surname": "Spiros"
+            },
+            {
+                "low": 73,
+                "high": 76,
+                "male": "Orestes",
+                "female": "Phoebe",
+                "surname": "Stavros"
+            },
+            {
+                "low": 77,
+                "high": 80,
+                "male": "Petros",
+                "female": "Sophia",
+                "surname": "Stephanidis"
+            },
+            {
+                "low": 81,
+                "high": 84,
+                "male": "Simon",
+                "female": "Theodora",
+                "surname": "Stratigos"
+            },
+            {
+                "low": 85,
+                "high": 88,
+                "male": "Stavros",
+                "female": "Valentina",
+                "surname": "Terzis"
+            },
+            {
+                "low": 89,
+                "high": 92,
+                "male": "Theodore",
+                "female": "Valeria",
+                "surname": "Theodorou"
+            },
+            {
+                "low": 93,
+                "high": 96,
+                "male": "Vassilios",
+                "female": "Yianna",
+                "surname": "Vasiliadis"
+            },
+            {
+                "low": 97,
+                "high": 100,
+                "male": "Yannis",
+                "female": "Zoe",
+                "surname": "Yannakakis"
+            }
+        ],
+        "indian": [
+            {
+                "low": 1,
+                "high": 4,
+                "male": "Amrit",
+                "female": "Amala",
+                "surname": "Achari"
+            },
+            {
+                "low": 5,
+                "high": 8,
+                "male": "Ashok",
+                "female": "Asha",
+                "surname": "Banerjee"
+            },
+            {
+                "low": 9,
+                "high": 12,
+                "male": "Chand",
+                "female": "Chandra",
+                "surname": "Bhatnagar"
+            },
+            {
+                "low": 13,
+                "high": 16,
+                "male": "Dinesh",
+                "female": "Devika",
+                "surname": "Bose"
+            },
+            {
+                "low": 17,
+                "high": 20,
+                "male": "Gobind",
+                "female": "Esha",
+                "surname": "Chauhan"
+            },
+            {
+                "low": 21,
+                "high": 24,
+                "male": "Harinder",
+                "female": "Gita",
+                "surname": "Chopra"
+            },
+            {
+                "low": 25,
+                "high": 28,
+                "male": "Jagdish",
+                "female": "Indira",
+                "surname": "Das"
+            },
+            {
+                "low": 29,
+                "high": 32,
+                "male": "Johar",
+                "female": "Indrani",
+                "surname": "Dutta"
+            },
+            {
+                "low": 33,
+                "high": 36,
+                "male": "Kurien",
+                "female": "Jaya",
+                "surname": "Gupta"
+            },
+            {
+                "low": 37,
+                "high": 40,
+                "male": "Lakshman",
+                "female": "Jayanti",
+                "surname": "Johar"
+            },
+            {
+                "low": 41,
+                "high": 44,
+                "male": "Madhav",
+                "female": "Kiri",
+                "surname": "Kapoor"
+            },
+            {
+                "low": 45,
+                "high": 48,
+                "male": "Mahinder",
+                "female": "Lalita",
+                "surname": "Mahajan"
+            },
+            {
+                "low": 49,
+                "high": 52,
+                "male": "Mohal",
+                "female": "Malati",
+                "surname": "Malhotra"
+            },
+            {
+                "low": 53,
+                "high": 56,
+                "male": "Narinder",
+                "female": "Mira",
+                "surname": "Mehra"
+            },
+            {
+                "low": 57,
+                "high": 60,
+                "male": "Nikhil",
+                "female": "Mohana",
+                "surname": "Nehru"
+            },
+            {
+                "low": 61,
+                "high": 64,
+                "male": "Omrao",
+                "female": "Neela",
+                "surname": "Patil"
+            },
+            {
+                "low": 65,
+                "high": 68,
+                "male": "Prasad",
+                "female": "Nita",
+                "surname": "Rao"
+            },
+            {
+                "low": 69,
+                "high": 72,
+                "male": "Pratap",
+                "female": "Rajani",
+                "surname": "Saxena"
+            },
+            {
+                "low": 73,
+                "high": 76,
+                "male": "Ranjit",
+                "female": "Sarala",
+                "surname": "Shah"
+            },
+            {
+                "low": 77,
+                "high": 80,
+                "male": "Sanjay",
+                "female": "Sarika",
+                "surname": "Sharma"
+            },
+            {
+                "low": 81,
+                "high": 84,
+                "male": "Shankar",
+                "female": "Sheela",
+                "surname": "Singh"
+            },
+            {
+                "low": 85,
+                "high": 88,
+                "male": "Thakur",
+                "female": "Sunita",
+                "surname": "Trivedi"
+            },
+            {
+                "low": 89,
+                "high": 92,
+                "male": "Vijay",
+                "female": "Trishna",
+                "surname": "Venkatesan"
+            },
+            {
+                "low": 93,
+                "high": 96,
+                "male": "Vipul",
+                "female": "Usha",
+                "surname": "Verma"
+            },
+            {
+                "low": 97,
+                "high": 100,
+                "male": "Yash",
+                "female": "Vasanta",
+                "surname": "Yadav"
+            }
+        ],
+        "japanese": [
+            {
+                "low": 1,
+                "high": 4,
+                "male": "Akira",
+                "female": "Aemi",
+                "surname": "Abe"
+            },
+            {
+                "low": 5,
+                "high": 8,
+                "male": "Daisuke",
+                "female": "Airi",
+                "surname": "Arakaki"
+            },
+            {
+                "low": 9,
+                "high": 12,
+                "male": "Fukashi",
+                "female": "Ako",
+                "surname": "Endo"
+            },
+            {
+                "low": 13,
+                "high": 16,
+                "male": "Goro",
+                "female": "Ayu",
+                "surname": "Fujiwara"
+            },
+            {
+                "low": 17,
+                "high": 20,
+                "male": "Hiro",
+                "female": "Chikaze",
+                "surname": "Goto"
+            },
+            {
+                "low": 21,
+                "high": 24,
+                "male": "Hiroya",
+                "female": "Eriko",
+                "surname": "Ito"
+            },
+            {
+                "low": 25,
+                "high": 28,
+                "male": "Hotaka",
+                "female": "Hina",
+                "surname": "Kikuchi"
+            },
+            {
+                "low": 29,
+                "high": 32,
+                "male": "Katsu",
+                "female": "Kaori",
+                "surname": "Kinjo"
+            },
+            {
+                "low": 33,
+                "high": 36,
+                "male": "Katsuto",
+                "female": "Keiko",
+                "surname": "Kobayashi"
+            },
+            {
+                "low": 37,
+                "high": 40,
+                "male": "Keishuu",
+                "female": "Kyouka",
+                "surname": "Koga"
+            },
+            {
+                "low": 41,
+                "high": 44,
+                "male": "Kyuuto",
+                "female": "Mayumi",
+                "surname": "Komatsu"
+            },
+            {
+                "low": 45,
+                "high": 48,
+                "male": "Mikiya",
+                "female": "Miho",
+                "surname": "Maeda"
+            },
+            {
+                "low": 49,
+                "high": 52,
+                "male": "Mitsunobu",
+                "female": "Namiko",
+                "surname": "Nakamura"
+            },
+            {
+                "low": 53,
+                "high": 56,
+                "male": "Mitsuru",
+                "female": "Natsu",
+                "surname": "Narita"
+            },
+            {
+                "low": 57,
+                "high": 60,
+                "male": "Naruhiko",
+                "female": "Nobuko",
+                "surname": "Ochi"
+            },
+            {
+                "low": 61,
+                "high": 64,
+                "male": "Nobu",
+                "female": "Rei",
+                "surname": "Oshiro"
+            },
+            {
+                "low": 65,
+                "high": 68,
+                "male": "Shigeo",
+                "female": "Ririsa",
+                "surname": "Saito"
+            },
+            {
+                "low": 69,
+                "high": 72,
+                "male": "Shigeto",
+                "female": "Sakimi",
+                "surname": "Sakamoto"
+            },
+            {
+                "low": 73,
+                "high": 76,
+                "male": "Shou",
+                "female": "Shihoko",
+                "surname": "Sato"
+            },
+            {
+                "low": 77,
+                "high": 80,
+                "male": "Shuji",
+                "female": "Shika",
+                "surname": "Suzuki"
+            },
+            {
+                "low": 81,
+                "high": 84,
+                "male": "Takaharu",
+                "female": "Tsukiko",
+                "surname": "Takahashi"
+            },
+            {
+                "low": 85,
+                "high": 88,
+                "male": "Teruaki",
+                "female": "Tsuzune",
+                "surname": "Tanaka"
+            },
+            {
+                "low": 89,
+                "high": 92,
+                "male": "Tetsushi",
+                "female": "Yoriko",
+                "surname": "Watanabe"
+            },
+            {
+                "low": 93,
+                "high": 96,
+                "male": "Tsukasa",
+                "female": "Yorimi",
+                "surname": "Yamamoto"
+            },
+            {
+                "low": 97,
+                "high": 100,
+                "male": "Yasuharu",
+                "female": "Yoshiko",
+                "surname": "Yamasaki"
+            }
+        ],
+        "latin": [
+            {
+                "low": 1,
+                "high": 4,
+                "male": "Agrippa",
+                "female": "Appia",
+                "surname": "Antius"
+            },
+            {
+                "low": 5,
+                "high": 8,
+                "male": "Appius",
+                "female": "Aula",
+                "surname": "Aurius"
+            },
+            {
+                "low": 9,
+                "high": 12,
+                "male": "Aulus",
+                "female": "Caesula",
+                "surname": "Barbatius"
+            },
+            {
+                "low": 13,
+                "high": 16,
+                "male": "Caeso",
+                "female": "Decima",
+                "surname": "Calidius"
+            },
+            {
+                "low": 17,
+                "high": 20,
+                "male": "Decimus",
+                "female": "Fausta",
+                "surname": "Cornelius"
+            },
+            {
+                "low": 21,
+                "high": 24,
+                "male": "Faustus",
+                "female": "Gaia",
+                "surname": "Decius"
+            },
+            {
+                "low": 25,
+                "high": 28,
+                "male": "Gaius",
+                "female": "Gnaea",
+                "surname": "Fabius"
+            },
+            {
+                "low": 29,
+                "high": 32,
+                "male": "Gnaeus",
+                "female": "Hosta",
+                "surname": "Flavius"
+            },
+            {
+                "low": 33,
+                "high": 36,
+                "male": "Hostus",
+                "female": "Lucia",
+                "surname": "Galerius"
+            },
+            {
+                "low": 37,
+                "high": 40,
+                "male": "Lucius",
+                "female": "Maio",
+                "surname": "Horatius"
+            },
+            {
+                "low": 41,
+                "high": 44,
+                "male": "Mamercus",
+                "female": "Marcia",
+                "surname": "Julius"
+            },
+            {
+                "low": 45,
+                "high": 48,
+                "male": "Manius",
+                "female": "Maxima",
+                "surname": "Juventius"
+            },
+            {
+                "low": 49,
+                "high": 52,
+                "male": "Marcus",
+                "female": "Mettia",
+                "surname": "Licinius"
+            },
+            {
+                "low": 53,
+                "high": 56,
+                "male": "Mettius",
+                "female": "Nona",
+                "surname": "Marius"
+            },
+            {
+                "low": 57,
+                "high": 60,
+                "male": "Nonus",
+                "female": "Numeria",
+                "surname": "Minicius"
+            },
+            {
+                "low": 61,
+                "high": 64,
+                "male": "Numerius",
+                "female": "Octavia",
+                "surname": "Nerius"
+            },
+            {
+                "low": 65,
+                "high": 68,
+                "male": "Opiter",
+                "female": "Postuma",
+                "surname": "Octavius"
+            },
+            {
+                "low": 69,
+                "high": 72,
+                "male": "Paulus",
+                "female": "Prima",
+                "surname": "Pompeius"
+            },
+            {
+                "low": 73,
+                "high": 76,
+                "male": "Proculus",
+                "female": "Procula",
+                "surname": "Quinctius"
+            },
+            {
+                "low": 77,
+                "high": 80,
+                "male": "Publius",
+                "female": "Septima",
+                "surname": "Rutilius"
+            },
+            {
+                "low": 81,
+                "high": 84,
+                "male": "Quintus",
+                "female": "Servia",
+                "surname": "Sextius"
+            },
+            {
+                "low": 85,
+                "high": 88,
+                "male": "Servius",
+                "female": "Tertia",
+                "surname": "Titius"
+            },
+            {
+                "low": 89,
+                "high": 92,
+                "male": "Tiberius",
+                "female": "Tiberia",
+                "surname": "Ulpius"
+            },
+            {
+                "low": 93,
+                "high": 96,
+                "male": "Titus",
+                "female": "Titia",
+                "surname": "Valerius"
+            },
+            {
+                "low": 97,
+                "high": 100,
+                "male": "Volescus",
+                "female": "Vibia",
+                "surname": "Vitellius"
+            }
+        ],
+        "nigerian": [
+            {
+                "low": 1,
+                "high": 4,
+                "male": "Adesegun",
+                "female": "Abike",
+                "surname": "Adegboye"
+            },
+            {
+                "low": 5,
+                "high": 8,
+                "male": "Akintola",
+                "female": "Adesuwa",
+                "surname": "Adeniyi"
+            },
+            {
+                "low": 9,
+                "high": 12,
+                "male": "Amabere",
+                "female": "Adunola",
+                "surname": "Adeyeku"
+            },
+            {
+                "low": 13,
+                "high": 16,
+                "male": "Arikawe",
+                "female": "Anguli",
+                "surname": "Adunola"
+            },
+            {
+                "low": 17,
+                "high": 20,
+                "male": "Asagwara",
+                "female": "Arewa",
+                "surname": "Agbaje"
+            },
+            {
+                "low": 21,
+                "high": 24,
+                "male": "Chidubem",
+                "female": "Asari",
+                "surname": "Akpan"
+            },
+            {
+                "low": 25,
+                "high": 28,
+                "male": "Chinedu",
+                "female": "Bisola",
+                "surname": "Akpehi"
+            },
+            {
+                "low": 29,
+                "high": 32,
+                "male": "Chiwetei",
+                "female": "Chioma",
+                "surname": "Aliki"
+            },
+            {
+                "low": 33,
+                "high": 36,
+                "male": "Damilola",
+                "female": "Eduwa",
+                "surname": "Asuni"
+            },
+            {
+                "low": 37,
+                "high": 40,
+                "male": "Esangbedo",
+                "female": "Emilohi",
+                "surname": "Babangida"
+            },
+            {
+                "low": 41,
+                "high": 44,
+                "male": "Ezenwoye",
+                "female": "Fehintola",
+                "surname": "Ekim"
+            },
+            {
+                "low": 45,
+                "high": 48,
+                "male": "Folarin",
+                "female": "Folasade",
+                "surname": "Ezeiruaku"
+            },
+            {
+                "low": 49,
+                "high": 52,
+                "male": "Genechi",
+                "female": "Mahparah",
+                "surname": "Fabiola"
+            },
+            {
+                "low": 53,
+                "high": 56,
+                "male": "Idowu",
+                "female": "Minika",
+                "surname": "Fasola"
+            },
+            {
+                "low": 57,
+                "high": 60,
+                "male": "Kelechi",
+                "female": "Nkolika",
+                "surname": "Nwokolo"
+            },
+            {
+                "low": 61,
+                "high": 64,
+                "male": "Ketanndu",
+                "female": "Nkoyo",
+                "surname": "Nzeocha"
+            },
+            {
+                "low": 65,
+                "high": 68,
+                "male": "Melubari",
+                "female": "Nuanae",
+                "surname": "Ojo"
+            },
+            {
+                "low": 69,
+                "high": 72,
+                "male": "Nkanta",
+                "female": "Obioma",
+                "surname": "Okonkwo"
+            },
+            {
+                "low": 73,
+                "high": 76,
+                "male": "Obafemi",
+                "female": "Olafemi",
+                "surname": "Okoye"
+            },
+            {
+                "low": 77,
+                "high": 80,
+                "male": "Olatunde",
+                "female": "Shanumi",
+                "surname": "Olaniyan"
+            },
+            {
+                "low": 81,
+                "high": 84,
+                "male": "Olumide",
+                "female": "Sominabo",
+                "surname": "Olawale"
+            },
+            {
+                "low": 85,
+                "high": 88,
+                "male": "Tombari",
+                "female": "Suliat",
+                "surname": "Olumese"
+            },
+            {
+                "low": 89,
+                "high": 92,
+                "male": "Udofia",
+                "female": "Tariere",
+                "surname": "Onajobi"
+            },
+            {
+                "low": 93,
+                "high": 96,
+                "male": "Uyoata",
+                "female": "Temedire",
+                "surname": "Soyinka"
+            },
+            {
+                "low": 97,
+                "high": 100,
+                "male": "Uzochi",
+                "female": "Yemisi",
+                "surname": "Yamusa"
+            }
+        ],
+        "russian": [
+            {
+                "low": 1,
+                "high": 4,
+                "male": "Aleksandr",
+                "female": "Aleksandra",
+                "surname": "Abelev"
+            },
+            {
+                "low": 5,
+                "high": 8,
+                "male": "Andrei",
+                "female": "Anastasia",
+                "surname": "Bobrikov"
+            },
+            {
+                "low": 9,
+                "high": 12,
+                "male": "Arkady",
+                "female": "Anja",
+                "surname": "Chemerkin"
+            },
+            {
+                "low": 13,
+                "high": 16,
+                "male": "Boris",
+                "female": "Catarina",
+                "surname": "Gogunov"
+            },
+            {
+                "low": 17,
+                "high": 20,
+                "male": "Dmitri",
+                "female": "Devora",
+                "surname": "Gurov"
+            },
+            {
+                "low": 21,
+                "high": 24,
+                "male": "Dominik",
+                "female": "Dima",
+                "surname": "Iltchenko"
+            },
+            {
+                "low": 25,
+                "high": 28,
+                "male": "Grigory",
+                "female": "Ekaterina",
+                "surname": "Kavelin"
+            },
+            {
+                "low": 29,
+                "high": 32,
+                "male": "Igor",
+                "female": "Eva",
+                "surname": "Komarov"
+            },
+            {
+                "low": 33,
+                "high": 36,
+                "male": "Ilya",
+                "female": "Irina",
+                "surname": "Korovin"
+            },
+            {
+                "low": 37,
+                "high": 40,
+                "male": "Ivan",
+                "female": "Karolina",
+                "surname": "Kurnikov"
+            },
+            {
+                "low": 41,
+                "high": 44,
+                "male": "Kiril",
+                "female": "Katlina",
+                "surname": "Lebedev"
+            },
+            {
+                "low": 45,
+                "high": 48,
+                "male": "Konstantin",
+                "female": "Kira",
+                "surname": "Litvak"
+            },
+            {
+                "low": 49,
+                "high": 52,
+                "male": "Leonid",
+                "female": "Ludmilla",
+                "surname": "Mekhdiev"
+            },
+            {
+                "low": 53,
+                "high": 56,
+                "male": "Nikolai",
+                "female": "Mara",
+                "surname": "Muraviov"
+            },
+            {
+                "low": 57,
+                "high": 60,
+                "male": "Oleg",
+                "female": "Nadezdha",
+                "surname": "Nikitin"
+            },
+            {
+                "low": 61,
+                "high": 64,
+                "male": "Pavel",
+                "female": "Nastassia",
+                "surname": "Ortov"
+            },
+            {
+                "low": 65,
+                "high": 68,
+                "male": "Petr",
+                "female": "Natalya",
+                "surname": "Peshkov"
+            },
+            {
+                "low": 69,
+                "high": 72,
+                "male": "Sergei",
+                "female": "Oksana",
+                "surname": "Romasko"
+            },
+            {
+                "low": 73,
+                "high": 76,
+                "male": "Stepan",
+                "female": "Olena",
+                "surname": "Shvedov"
+            },
+            {
+                "low": 77,
+                "high": 80,
+                "male": "Valentin",
+                "female": "Olga",
+                "surname": "Sikorski"
+            },
+            {
+                "low": 81,
+                "high": 84,
+                "male": "Vasily",
+                "female": "Sofia",
+                "surname": "Stolypin"
+            },
+            {
+                "low": 85,
+                "high": 88,
+                "male": "Viktor",
+                "female": "Svetlana",
+                "surname": "Turov"
+            },
+            {
+                "low": 89,
+                "high": 92,
+                "male": "Yakov",
+                "female": "Tatyana",
+                "surname": "Volokh"
+            },
+            {
+                "low": 93,
+                "high": 96,
+                "male": "Yegor",
+                "female": "Vilma",
+                "surname": "Zaitsev"
+            },
+            {
+                "low": 97,
+                "high": 100,
+                "male": "Yuri",
+                "female": "Yelena",
+                "surname": "Zhukov"
+            }
+        ],
+        "spanish": [
+            {
+                "low": 1,
+                "high": 4,
+                "male": "Alejandro",
+                "female": "Adalina",
+                "surname": "Arellano"
+            },
+            {
+                "low": 5,
+                "high": 8,
+                "male": "Alonso",
+                "female": "Aleta",
+                "surname": "Arispana"
+            },
+            {
+                "low": 9,
+                "high": 12,
+                "male": "Amelio",
+                "female": "Ana",
+                "surname": "Borrego"
+            },
+            {
+                "low": 13,
+                "high": 16,
+                "male": "Armando",
+                "female": "Ascencion",
+                "surname": "Carderas"
+            },
+            {
+                "low": 17,
+                "high": 20,
+                "male": "Bernardo",
+                "female": "Beatriz",
+                "surname": "Carranzo"
+            },
+            {
+                "low": 21,
+                "high": 24,
+                "male": "Carlos",
+                "female": "Carmela",
+                "surname": "Cordova"
+            },
+            {
+                "low": 25,
+                "high": 28,
+                "male": "Cesar",
+                "female": "Celia",
+                "surname": "Enciso"
+            },
+            {
+                "low": 29,
+                "high": 32,
+                "male": "Diego",
+                "female": "Dolores",
+                "surname": "Espejo"
+            },
+            {
+                "low": 33,
+                "high": 36,
+                "male": "Emilio",
+                "female": "Elena",
+                "surname": "Gavilan"
+            },
+            {
+                "low": 37,
+                "high": 40,
+                "male": "Estevan",
+                "female": "Emelina",
+                "surname": "Guerra"
+            },
+            {
+                "low": 41,
+                "high": 44,
+                "male": "Felipe",
+                "female": "Felipa",
+                "surname": "Guillen"
+            },
+            {
+                "low": 45,
+                "high": 48,
+                "male": "Francisco",
+                "female": "Inez",
+                "surname": "Huertas"
+            },
+            {
+                "low": 49,
+                "high": 52,
+                "male": "Guillermo",
+                "female": "Isabel",
+                "surname": "Illan"
+            },
+            {
+                "low": 53,
+                "high": 56,
+                "male": "Javier",
+                "female": "Jacinta",
+                "surname": "Jurado"
+            },
+            {
+                "low": 57,
+                "high": 60,
+                "male": "Jose",
+                "female": "Lucia",
+                "surname": "Moretta"
+            },
+            {
+                "low": 61,
+                "high": 64,
+                "male": "Juan",
+                "female": "Lupe",
+                "surname": "Motolinia"
+            },
+            {
+                "low": 65,
+                "high": 68,
+                "male": "Julio",
+                "female": "Maria",
+                "surname": "Pancorbo"
+            },
+            {
+                "low": 69,
+                "high": 72,
+                "male": "Luis",
+                "female": "Marta",
+                "surname": "Paredes"
+            },
+            {
+                "low": 73,
+                "high": 76,
+                "male": "Pedro",
+                "female": "Nina",
+                "surname": "Quesada"
+            },
+            {
+                "low": 77,
+                "high": 80,
+                "male": "Raul",
+                "female": "Paloma",
+                "surname": "Roma"
+            },
+            {
+                "low": 81,
+                "high": 84,
+                "male": "Ricardo",
+                "female": "Rafaela",
+                "surname": "Rubiera"
+            },
+            {
+                "low": 85,
+                "high": 88,
+                "male": "Salvador",
+                "female": "Soledad",
+                "surname": "Santoro"
+            },
+            {
+                "low": 89,
+                "high": 92,
+                "male": "Santiago",
+                "female": "Teresa",
+                "surname": "Torrillas"
+            },
+            {
+                "low": 93,
+                "high": 96,
+                "male": "Valeriano",
+                "female": "Valencia",
+                "surname": "Vera"
+            },
+            {
+                "low": 97,
+                "high": 100,
+                "male": "Vicente",
+                "female": "Zenaida",
+                "surname": "Vivero"
+            }
+        ]
+    }
 }

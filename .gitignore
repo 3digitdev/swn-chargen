@@ -1,6 +1,7 @@
 elm-stuff/
 public/index.js
 .sass-cache
+public/css/main.css.map
 
 .firebase/
 .firebaserc

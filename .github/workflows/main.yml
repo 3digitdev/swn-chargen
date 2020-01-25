@@ -15,7 +15,7 @@ jobs:
         uses: JorelAli/setup-elm@v1
         with:
           elm-version: 0.19.1
-      - name: Build and Compile Sass
+      - name: Build Project and Compile Sass
         run: bash buildElm.sh
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
@@ -36,6 +36,6 @@ jobs:
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: deploy --project swn-chargen
+          args: deploy --project planet-gen
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
