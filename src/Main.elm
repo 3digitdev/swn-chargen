@@ -571,6 +571,7 @@ type Msg
     | SetNameOrigin String
     | SetNameGender String
     | RollName
+    | SetName String
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -1091,6 +1092,9 @@ update msg model =
                     nameTables |> rollOnNameTable .surname secondRoll
             in
             ( { model | name = firstName ++ " " ++ lastName }, Cmd.none )
+
+        SetName name ->
+            ( { model | name = name }, Cmd.none )
 
 
 
@@ -2036,7 +2040,14 @@ renderNameSelection model =
                 [ option [ value "Male" ] [ text "Male" ]
                 , option [ value "Female" ] [ text "Female" ]
                 ]
-            , h1 [ class "char-name" ] [ text model.name ]
+            , div [ class "spacer" ] []
+            , input
+                [ type_ "text"
+                , class "name-input"
+                , onInput SetName
+                , value model.name
+                ]
+                [ text model.name ]
             , button [ onClick clickFn ] [ text "Random Name" ]
             ]
         , button

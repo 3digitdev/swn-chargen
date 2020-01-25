@@ -83,7 +83,10 @@ input.name-input {
   font-family: "Dosis", sans-serif;
   color: #555;
   padding: 0.5rem;
-  min-width: 60%; }
+  min-width: 40%; }
+
+div.spacer {
+  padding: 1rem; }
 
 .container {
   margin-bottom: 10%;
@@ -415,5 +418,3 @@ h1.attr-name {
   .extras-list:nth-child(even) {
     border-left: 1px solid #555;
     border-right: 1px solid #555; }
-
-/*# sourceMappingURL=main.css.map */
